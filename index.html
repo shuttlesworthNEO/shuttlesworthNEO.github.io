@@ -406,22 +406,22 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="./inc/sendEmail.php" method="post" id="contactForm" name="contactForm">
+               <form action="/inc/sendEmail.php" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
 						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
+						   <input type="text" value="" size="35" id="contactName" name="contactName" />
                   </div>
 
                   <div>
 						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail" />
                   </div>
 
                   <div>
 						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject" />
                   </div>
 
                   <div>
@@ -430,7 +430,7 @@
                   </div>
 
                   <div>
-                     <button class="submit">Submit</button>
+                     <input type="submit" name="Send" id="Send" value="Submit">
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif">
                      </span>
